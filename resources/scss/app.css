@@ -1,0 +1,335 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.asp {
+  position: relative;
+  width: 100%;
+}
+.asp.contain img, .asp.contain video {
+  object-fit: contain;
+}
+.asp.cover img, .asp.cover video {
+  object-fit: cover;
+}
+.asp img, .asp video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.asp .super-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+}
+
+.asp-37-35 {
+  padding-bottom: 94.5945945946%;
+}
+
+.asp-1-1 {
+  padding-bottom: 100%;
+}
+
+.asp-075-1 {
+  padding-bottom: 133.3333333333%;
+}
+
+.asp-1-100415 {
+  padding-bottom: 104.15%;
+}
+
+.asp-190-253 {
+  padding-bottom: 133.1578947368%;
+}
+
+.asp-1-3 {
+  padding-bottom: 300%;
+}
+
+.asp-4-1 {
+  padding-bottom: 25%;
+}
+
+.asp-2-1 {
+  padding-bottom: 50%;
+}
+
+.asp-1-2 {
+  padding-bottom: 200%;
+}
+
+.asp-2-3 {
+  padding-bottom: 150%;
+}
+
+.asp-3-2 {
+  padding-bottom: 66.6666666667%;
+}
+
+.asp-3-4 {
+  padding-bottom: 133.3333333333%;
+}
+
+.asp-4-3 {
+  padding-bottom: 75%;
+}
+
+.asp-4-2 {
+  padding-bottom: 50%;
+}
+
+.asp-16-9 {
+  padding-bottom: 56.25%;
+}
+
+.asp-9-16 {
+  padding-bottom: 177.7777777778%;
+}
+
+.asp-16-8 {
+  padding-bottom: 50%;
+}
+
+.asp-5-2 {
+  padding-bottom: 40%;
+}
+
+.asp-5-3 {
+  padding-bottom: 60%;
+}
+
+.asp-5-4 {
+  padding-bottom: 80%;
+}
+
+.asp-100 {
+  width: 100%;
+  height: calc(100vh - 177px);
+}
+
+.asp-101 {
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+.asp-50 {
+  width: 100%;
+  height: calc(60vh - 70px);
+}
+
+.asp-80 {
+  width: 100%;
+  height: calc(80vh - 70px);
+}
+
+.asp-90 {
+  width: 100%;
+  height: calc(90vh - 70px);
+}
+
+.asp-1122-468 {
+  padding-bottom: 41.7112299465%;
+}
+
+.asp-1120-608 {
+  padding-bottom: 54.2857142857%;
+}
+
+.asp-1920-640 {
+  padding-bottom: 33.3333333333%;
+}
+
+.asp-726-500 {
+  padding-bottom: 68.870523416%;
+}
+
+.asp-940-705 {
+  padding-bottom: 75%;
+}
+
+.asp-380-489 {
+  padding-bottom: 128.6842105263%;
+}
+
+.asp-380-506 {
+  padding-bottom: 133.1578947368%;
+}
+
+.asp-450-338 {
+  padding-bottom: 49.3333333333%;
+}
+
+.asp-1366-560 {
+  padding-bottom: 40.9956076135%;
+}
+
+.asp-1920-480 {
+  padding-bottom: 25%;
+}
+
+.asp-1920-1080 {
+  padding-bottom: 56.25%;
+}
+
+.asp-292-277 {
+  padding-bottom: 94.8630136986%;
+}
+
+.asp-554-100 {
+  padding-bottom: 18.0505415162%;
+}
+
+.asp-408-186 {
+  padding-bottom: 45.5882352941%;
+}
+
+.asp-554-417 {
+  padding-bottom: 75.2707581227%;
+}
+
+.asp-1722-574 {
+  padding-bottom: 33.3333333333%;
+}
+
+.asp-408-305 {
+  padding-bottom: 74.7549019608%;
+}
+
+.asp-138-138 {
+  padding-bottom: 100%;
+}
+
+.asp-701-430 {
+  padding-bottom: 61.3409415121%;
+}
+
+.asp-992-558 {
+  padding-bottom: 56.25%;
+}
+
+.asp-700-874 {
+  padding-bottom: 124.8571428571%;
+}
+
+.asp-397-529 {
+  padding-bottom: 133.2493702771%;
+}
+
+.asp-846-476 {
+  padding-bottom: 56.2647754137%;
+}
+
+.asp-554-416 {
+  padding-bottom: 75.0902527076%;
+}
+
+.asp-356-474 {
+  padding-bottom: 133.1460674157%;
+}
+
+.asp-909-455 {
+  padding-bottom: 50.0550055006%;
+}
+
+.asp-205-103 {
+  padding-bottom: 50.243902439%;
+}
+
+.asp-910-512 {
+  padding-bottom: 56.2637362637%;
+}
+
+.asp-700-420 {
+  padding-bottom: 60%;
+}
+
+.asp-407-204 {
+  padding-bottom: 50.1228501229%;
+}
+
+.asp-842-596 {
+  padding-bottom: 70.783847981%;
+}
+
+.asp-846-423 {
+  padding-bottom: 50%;
+}
+
+.asp-3-1 {
+  padding-bottom: 33.3333333333%;
+}
+
+.asp-992-496 {
+  padding-bottom: 50%;
+}
+
+.asp-1430-712 {
+  padding-bottom: 49.7902097902%;
+}
+
+.asp-335-445 {
+  padding-bottom: 132.8358208955%;
+}
+
+.asp-554-692 {
+  padding-bottom: 124.9097472924%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-container {
+  @apply w-full h-full relative pb-2;
+}
+.page-container .background-image {
+  @apply absolute top-0 right-0 bottom-0 left-0 w-full h-full z-[-1];
+}
+.page-container .background-image img {
+  @apply w-full h-full object-cover;
+}
+.page-container .logo-container {
+  @apply w-full flex items-center justify-center;
+}
+.page-container .logo-container .logo {
+  @apply w-[20%];
+}
+.page-container .categories {
+  @apply relative  mt-[40px] w-[75%] mx-auto items-start justify-center grid-cols-1  gap-10 px-12 py-8 rounded-3xl;
+}
+.page-container .categories .category {
+  @apply p-2;
+}
+.page-container .categories .category h1 {
+  @apply text-center text-[#E40613] text-xl;
+}
+.page-container .categories .category .items-container {
+  @apply w-full flex flex-col;
+  transition: all 0.5s ease;
+}
+.page-container .categories .category .items-container .item {
+  @apply w-full flex flex-row justify-between items-center;
+}
+.page-container .categories .category .items-container .item h2, .page-container .categories .category .items-container .item p {
+  @apply text-white text-lg;
+}
+.page-container .categories .menu-background {
+  @apply w-full h-full absolute top-0 right-0 bottom-0 left-0 z-[-1] rounded-3xl;
+}
+.page-container .categories .menu-background img {
+  @apply w-full h-full object-cover rounded-3xl;
+}
+
+/*# sourceMappingURL=app.css.map */

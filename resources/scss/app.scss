@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "asp";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-container{
+    @apply w-full h-full relative pb-2;
+    .background-image{
+        @apply absolute top-0 right-0 bottom-0 left-0 w-full h-full z-[-1];
+        img{
+            @apply w-full h-full object-cover;
+        }
+    }
+    .logo-container{
+        @apply w-full flex items-center justify-center;
+        .logo{
+            @apply w-[20%];
+        }
+    }
+    .categories{
+        @apply relative  mt-[40px] w-[75%] mx-auto items-start justify-center grid-cols-1  gap-10 px-12 py-8 rounded-3xl;
+        .category{
+            //@apply cursor-pointer  bg-[#E40613] p-4  hover:bg-[#F4BA35] ;
+            @apply p-2;
+            h1{
+                @apply text-center text-[#E40613] text-xl;
+            }
+            .items-container{
+                @apply w-full flex flex-col;
+                transition: all 0.5s ease;
+                .item{
+                    @apply w-full flex flex-row justify-between items-center ;
+                    h2,p{
+                        @apply text-white text-lg;
+                    }
+                }
+            }
+        }
+        .menu-background{
+            @apply w-full h-full absolute top-0 right-0 bottom-0 left-0 z-[-1] rounded-3xl;
+            img{
+                @apply w-full h-full object-cover rounded-3xl;
+            }
+        }
+    }
+}
