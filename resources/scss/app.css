@@ -292,7 +292,7 @@
 }
 
 .page-container {
-  @apply w-full h-full relative pb-2;
+  @apply w-full h-full lg:h-[100vh] relative pb-2;
 }
 .page-container .background-image {
   @apply absolute top-0 right-0 bottom-0 left-0 w-full h-full z-[-1];
@@ -304,32 +304,72 @@
   @apply w-full flex items-center justify-center;
 }
 .page-container .logo-container .logo {
-  @apply w-[20%];
+  @apply w-[50%] lg:w-[20%];
 }
 .page-container .categories {
-  @apply relative  mt-[40px] w-[75%] mx-auto items-start justify-center grid-cols-1  gap-10 px-12 py-8 rounded-3xl;
+  @apply relative mt-[10px] w-full mx-auto grid items-start justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-5 px-12 py-2 rounded-3xl;
 }
 .page-container .categories .category {
-  @apply p-2;
+  @apply w-full h-full p-2  relative flex items-center justify-center cursor-pointer;
 }
 .page-container .categories .category h1 {
-  @apply text-center text-[#E40613] text-xl;
+  @apply text-center text-white text-xl font-bold absolute top-[50%] left-[50%] z-[88];
+  transform: translate(-50%, -50%);
 }
-.page-container .categories .category .items-container {
-  @apply w-full flex flex-col;
-  transition: all 0.5s ease;
+.page-container .categories .category .category-background {
+  @apply w-full z-[-1] overflow-hidden rounded-[23px];
 }
-.page-container .categories .category .items-container .item {
-  @apply w-full flex flex-row justify-between items-center;
+.page-container .categories .category .category-background .asp img {
+  transform: scale(1);
+  transition: all 0.3s ease;
 }
-.page-container .categories .category .items-container .item h2, .page-container .categories .category .items-container .item p {
-  @apply text-white text-lg;
+.page-container .categories .category .category-background .overlay {
+  @apply absolute top-0 right-0 bottom-0 left-0 w-full bg-[rgba(0,0,0,0.7)];
+  transition: all 0.3s ease;
+}
+.page-container .categories .category:hover h1 {
+  @apply text-[#F4BA35];
+}
+.page-container .categories .category:hover .category-background .asp img {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+.page-container .categories .category:hover .category-background .overlay {
+  @apply bg-[rgba(0,0,0,0.1)];
+  transition: all 0.3s ease;
 }
 .page-container .categories .menu-background {
   @apply w-full h-full absolute top-0 right-0 bottom-0 left-0 z-[-1] rounded-3xl;
 }
-.page-container .categories .menu-background img {
-  @apply w-full h-full object-cover rounded-3xl;
+
+.subpages-container {
+  @apply w-[85%] mx-auto grid-cols-1 md:grid-cols-2 grid lg:grid-cols-3 gap-5 py-3;
+}
+.subpages-container .item {
+  @apply flex flex-col items-center justify-between gap-3 w-full  py-2 px-5 relative bg-white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.0705882353);
+  border: 1px solid #CECECE;
+}
+.subpages-container .item h2 {
+  @apply text-xl font-bold text-black;
+}
+.subpages-container .item p {
+  @apply text-xl font-bold text-[rgba(0,0,0,0.7)];
+}
+.subpages-container .item .image {
+  @apply w-full rounded-[50%] overflow-hidden;
+}
+.subpages-container .item .image .asp {
+  @apply rounded-[50%];
+}
+.subpages-container .item .image .asp img {
+  @apply rounded-[50%];
+  transform: scale(1);
+  transition: all 0.5s ease;
+}
+.subpages-container .item:hover .image .asp img {
+  transform: scale(1.2);
+  transition: all 0.5s ease;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -10,34 +10,80 @@
 <body>
 <div class="page-container">
     <div class="background-image">
-        <img src="/images/menu-background.jpg" alt="">
+        <img src="/images/background.jpg" alt="">
     </div>
-    <div class="logo-container">
-        <div class="logo">
-            <div class="asp asp-1-1 cover">
+    <div class="logo-container !rounded-[50%]">
+        <div class="logo !rounded-[50%]">
+            <div class="asp asp-1-1 cover !rounded-[50%]">
                 <img src="/images/logo.png" alt="">
             </div>
         </div>
     </div>
-    <div class="categories">
-        <div class="category">
-            Plates
+    <div class="subpages-container">
+        <div class="item">
+            <div class="image !rounded-[50%]">
+                <div class="asp asp-5-2 contain !rounded-[50%]">
+                    <img class="!rounded-[50%]" src="/images/mozzerlla.jpg" alt="">
+                </div>
+            </div>
+            <h2>Shawarama</h2>
+            <p>3.00$</p>
         </div>
-        <div class="category">
-            Pizza
+        <div class="item">
+            <div class="image !rounded-[50%]">
+                <div class="asp asp-5-2 contain !rounded-[50%]">
+                    <img class="!rounded-[50%]" src="/images/mozzerlla.jpg" alt="">
+                </div>
+            </div>
+            <h2>Shawarama</h2>
+            <p>3.00$</p>
         </div>
-        <div class="category">
-            Grill
+        <div class="item">
+            <div class="image !rounded-[50%]">
+                <div class="asp asp-5-2 contain !rounded-[50%]">
+                    <img class="!rounded-[50%]" src="/images/mozzerlla.jpg" alt="">
+                </div>
+            </div>
+            <h2>Shawarama</h2>
+            <p>3.00$</p>
         </div>
-        <div class="category">
-            Shawarma
+        <div class="item">
+            <div class="image !rounded-[50%]">
+                <div class="asp asp-5-2 contain !rounded-[50%]">
+                    <img class="!rounded-[50%]" src="/images/mozzerlla.jpg" alt="">
+                </div>
+            </div>
+            <h2>Shawarama</h2>
+            <p>3.00$</p>
         </div>
-        <div class="category">
-            Manakish
+        <div class="item">
+            <div class="image !rounded-[50%]">
+                <div class="asp asp-5-2 contain !rounded-[50%]">
+                    <img class="!rounded-[50%]" src="/images/mozzerlla.jpg" alt="">
+                </div>
+            </div>
+            <h2>Shawarama</h2>
+            <p>3.00$</p>
         </div>
-        <div class="category">
-            Appetizers
+        <div class="item">
+            <div class="image !rounded-[50%]">
+                <div class="asp asp-5-2 contain !rounded-[50%]">
+                    <img class="!rounded-[50%]" src="/images/mozzerlla.jpg" alt="">
+                </div>
+            </div>
+            <h2>Shawarama</h2>
+            <p>3.00$</p>
         </div>
+        <div class="item">
+            <div class="image !rounded-[50%]">
+                <div class="asp asp-5-2 contain !rounded-[50%]">
+                    <img class="!rounded-[50%]" src="/images/mozzerlla.jpg" alt="">
+                </div>
+            </div>
+            <h2>Shawarama</h2>
+            <p>3.00$</p>
+        </div>
+
     </div>
 </div>
 </body>

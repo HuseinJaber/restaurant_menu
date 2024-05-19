@@ -22,50 +22,85 @@
             </div>
         </div>
         <div class="categories">
-            <div class="menu-background">
-                <img src="/images/menu-background.jpg" alt="">
-            </div>
+{{--            <div class="menu-background">--}}
+{{--                <img src="/images/menu-background.jpg" alt="">--}}
+{{--            </div>--}}
             <div class="category" >
 {{--            <div class="category" x-data="{expanded:false}" @click="expanded=!expanded">--}}
                 <h1>Plates</h1>
-                <div class="items-container">
-                    <div class="item">
-                        <h2>Shwarama</h2>
-                        <p>3.00$</p>
+                <div class="category-background">
+                    <div class="asp asp-3-1 cover">
+                        <img src="/images/platesBackground.jpg" alt="">
+                        <div class="overlay"></div>
                     </div>
-                    <div class="item">
-                        <h2>Shwarama</h2>
-                        <p>3.00$</p>
+                </div>
+{{--                <div class="items-container">--}}
+{{--                    <div class="item">--}}
+{{--                        <h2>Shwarama</h2>--}}
+{{--                        <p>3.00$</p>--}}
+{{--                    </div>--}}
+{{--                    <div class="item">--}}
+{{--                        <h2>Shwarama</h2>--}}
+{{--                        <p>3.00$</p>--}}
+{{--                    </div>--}}
+{{--                    <div class="item">--}}
+{{--                        <h2>Shwarama</h2>--}}
+{{--                        <p>3.00$</p>--}}
+{{--                    </div>--}}
+{{--                    <div class="item">--}}
+{{--                        <h2>Shwarama</h2>--}}
+{{--                        <p>3.00$</p>--}}
+{{--                    </div>--}}
+{{--                    <div class="item">--}}
+{{--                        <h2>Shwarama</h2>--}}
+{{--                        <p>3.00$</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+            </div>
+            <a class="category" href="">
+                <h1>Pizza</h1>
+                <div class="category-background">
+                    <div class="asp asp-3-1 cover">
+                        <img src="/images/pizzaBackground.jpg" alt="">
+                        <div class="overlay"></div>
                     </div>
-                    <div class="item">
-                        <h2>Shwarama</h2>
-                        <p>3.00$</p>
-                    </div>
-                    <div class="item">
-                        <h2>Shwarama</h2>
-                        <p>3.00$</p>
-                    </div>
-                    <div class="item">
-                        <h2>Shwarama</h2>
-                        <p>3.00$</p>
+                </div>
+            </a>
+            <div class="category">
+                <h1>Grill</h1>
+                <div class="category-background">
+                    <div class="asp asp-3-1 cover">
+                        <img src="/images/grillBackground.jpg" alt="">
+                        <div class="overlay"></div>
                     </div>
                 </div>
             </div>
             <div class="category">
-                <h1>Plates</h1>
+                <h1>Shawarma</h1>
+                <div class="category-background">
+                    <div class="asp asp-3-1 cover">
+                        <img src="/images/shawarmaBackground.jpg" alt="">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
             </div>
             <div class="category">
-                <h1>Plates</h1>
+                <h1>Manakish</h1>
+                <div class="category-background">
+                    <div class="asp asp-3-1 cover">
+                        <img src="/images/mana2eshBackground.jpg" alt="">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
             </div>
             <div class="category">
-                <h1>Plates</h1>
-            </div>
-            <div class="category">
-                <h1>Plates</h1>
-            </div>
-            <div class="category">
-                <h1>Plates</h1>
-
+                <h1>Appetizers</h1>
+                <div class="category-background">
+                    <div class="asp asp-3-1 cover">
+                        <img src="/images/AppitizersBackground.jpg" alt="">
+                        <div class="overlay"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
